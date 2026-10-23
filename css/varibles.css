@@ -1,0 +1,11 @@
+
+:root{ /*É uma variavel do css*//*Isto interliga com a estilização e facilita em processos muitos grandes*/
+    --cor-principal: #1f48ff;
+    --cor-alternativa: #FFFFFF;
+
+    --cor-do-texto: #ffffff;
+    --cor-do-texto-segundaria: #ff0000;
+
+    --altura-header: 7.5vh;
+    --altura-footer: 15vh;
+}
