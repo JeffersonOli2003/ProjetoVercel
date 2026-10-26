@@ -7,6 +7,12 @@
 }
 
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
     background-color: var(--cor-principal);
     color: var(--texto-principal);
     
@@ -19,5 +25,23 @@
 
 .navigation a{
     text-decoration: none;
-    color: var(--texto-principal);
+    color: var(--cor-do-texto-segundaria);
+    font-family: 'Fonte Corpo';
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: var(--cor-do-texto-segundaria)
+}
+
+.logoContainer h1{
+    font-family: "Fonte Titulo";
+}
+
+.logoContainer img{
+    width: auto;
+    height: var(--altura-header);
 }

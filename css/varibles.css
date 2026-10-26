@@ -1,11 +1,47 @@
 
 :root{ /*É uma variavel do css*//*Isto interliga com a estilização e facilita em processos muitos grandes*/
-    --cor-principal: #1f48ff;
-    --cor-alternativa: #FFFFFF;
+    --cor-principal: #FFE691;
+    --cor-alternativa: #9E4446;
 
-    --cor-do-texto: #ffffff;
-    --cor-do-texto-segundaria: #ff0000;
+    --cor-do-texto: #585872;
+    --cor-do-texto-segundaria: #95D5EE;
 
     --altura-header: 7.5vh;
     --altura-footer: 15vh;
 }
+
+@font-face{
+    font-family: 'Fonte Titulo';
+    src: url(../assets/fonts/Pacifico.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fonte Corpo';
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fonte Corpo';
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fonte Corpo';
+    src: url(../assets/fonts/Poppins-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'Fonte Corpo';
+    src: url(../assets/fonts/Poppins-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+ 
