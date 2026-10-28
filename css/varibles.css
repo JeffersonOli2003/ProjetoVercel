@@ -1,10 +1,11 @@
 
 :root{ /*É uma variavel do css*//*Isto interliga com a estilização e facilita em processos muitos grandes*/
-    --cor-principal: #FFE691;
-    --cor-alternativa: #9E4446;
-
-    --cor-do-texto: #585872;
-    --cor-do-texto-segundaria: #95D5EE;
+    --cor-amarela: #FFE691;
+    --cor-vermelho: #9E4446;
+    --cor-roxa: #585872;
+    --cor-azul: #95D5EE;
+    --cor-rosa: #ffb6bb;
+    --cor-branca: #FAFAFA;
 
     --altura-header: 7.5vh;
     --altura-footer: 15vh;
@@ -13,8 +14,6 @@
 @font-face{
     font-family: 'Fonte Titulo';
     src: url(../assets/fonts/Pacifico.ttf);
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face{
