@@ -1,3 +1,53 @@
 @import url(./layout.css);
 
+.cardapiotopo {
+    background-color: var(--cor-amarela);
+    text-align: center;
+    padding: calc(var(--altura-header) + 60px);
+}
 
+.cardapiotag {
+    background-color: var(--cor-branca);
+    color: var(--cor-vermelho);
+    font-weight: bold;
+
+    width: fit-content;
+    margin: auto;
+    padding: 6px 16px;
+    border-radius: 20px;
+}
+
+.cardapiotitulo {
+    color: var(--cor-vermelho);
+
+    font-family: 'Fonte Titulo';
+    font-size: 56px;
+}
+
+.cardapiosubtitulo {
+    font-size: large;
+    margin: auto;
+}
+
+.cardapioConteudo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.listaCategorias {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoriaCabeçalho {
+    border-bottom: 3px solid var(--cor-azul);
+}
+
+.listaItens {
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    width: 50%;
+}

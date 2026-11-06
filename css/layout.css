@@ -99,6 +99,7 @@ a {
 .footerLogo {
     margin-bottom: 15px;
     font-family: "Fonte Titulo";
+    color: var(--cor-amarela);
 }
 
 .footerColuna h3 {
