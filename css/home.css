@@ -88,16 +88,16 @@
     position: relative;
     
     /* Pão configurado como plano de fundo preenchendo todo o círculo */
-    background-image: url('../assets/img/heroimage.png');
+    background-image: url('./assets/img/heroimage.png');
     background-size: cover;
     background-position: center;
 }
 
 .madoka{
     position: absolute;
-    width: 60%;
+    width: 45%;
     bottom: -10px;
-    left: 45%;
+    left: 55%;
     top: 10%;
     transform: translateX(-50%) scale(-1, 1); /* Centraliza perfeitamente a personagem na frente do pão */
     z-index: 2;
@@ -199,6 +199,7 @@
     padding: 100px 50px;
     background-color: var(--cor-azul);
 }
+
 
 .comoChegarConteudo{
     display: flex;
